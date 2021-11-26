@@ -2,14 +2,14 @@
 
 <table border="0">
   <tr>
-    <td width="100%">
+    <td width="50%">
       <h1>Yiming He</h1>
       <p><b>Bachelor</b></p>
       <p><b>HuaQiao University</b></p>
       <p><b>hymckks@163.com</b></p>
       <p><b>Fujian Xiamen</b></p>
     </td>
-    <td width="100%">
+    <td width="50%">
       <img src="/头像.jpg" width="100%">   
     </td>
   </tr>
@@ -20,6 +20,7 @@ Preparing for Postgraduate entrance examination
 
 # Research Interests
 Privacy-preserving Density-based Clustering
+
 
 # 小项目
 ### 基于DNS协议隐蔽信道检测
