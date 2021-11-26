@@ -8,7 +8,7 @@
       <p><b>hymckks@163.com</b></p>
       <p><b>Fujian Xiamen</b></p>
     </td>
-    <td width="25%">
+    <td width="100%">
       <img src="/头像.jpg" width="100%">   
     </td>
   </tr>
