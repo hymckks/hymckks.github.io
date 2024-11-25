@@ -14,12 +14,10 @@
   </tr>
 </table>
 
-# NEWS 
-Preparing for Postgraduate entrance examination
-
 &nbsp;
 
 # Research Interests
 Privacy-preserving Density-based Clustering
+&nbsp;
 &nbsp;
 Blockchain
