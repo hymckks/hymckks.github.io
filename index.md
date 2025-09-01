@@ -7,6 +7,7 @@
       <p><b>Xi'an University of Technology</b></p>
       <p><b>hymckks@163.com</b></p>
       <p><b>Xi'an</b></p>
+      Yiming He received the B.S. degree in Information Security from Huaqiao University, Xiamen, China, in 2022. He is currently pursuing a joint master’s degree between Xi’an University of Technology, China, and James Cook University, Australia. His research interests include applied cryptography, cloud security, machine learning, and blockchain.
     </td>
     <td width="20%">
       <img src="/头像.jpg" width="500%">   
