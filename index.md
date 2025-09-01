@@ -9,7 +9,7 @@
       <p><b>Xi'an</b></p>
     </td>
     <td width="20%">
-      <img src="/头像.jpg" width="100%">   
+      <img src="/头像.jpg" width="500%">   
     </td>
   </tr>
 </table>
@@ -17,7 +17,7 @@
 &nbsp;
 
 # Research Interests
-Privacy-preserving Density-based Clustering
+Applied cryptography
 &nbsp;
 &nbsp;
 Blockchain
