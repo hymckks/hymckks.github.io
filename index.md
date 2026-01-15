@@ -3,7 +3,7 @@
 <table border="0">
   <tr>
     <td width="80%">
-      <h1>Yiming He</h1>
+      <h1>Yiming He (何逸铭)</h1>
       <p><b>Xi'an University of Technology & James Cook University</b></p>
       Yiming He received the B.Eng. degree in Information Security from Huaqiao University, Xiamen, China, in 2022. He is currently pursuing a dual master’s degree between Xi’an University of Technology, China, and James Cook University, Australia. His research interests include applied cryptography, cloud security, machine learning, and blockchain.
     </td>
