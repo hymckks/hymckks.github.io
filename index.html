@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yiming He</title>
+<meta name="description" content="Yiming He — data security and applied cryptography, Xi'an University of Technology.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --text: #1f1f1f;
+    --muted: #6b6b6b;
+    --line: #e6e3dc;
+    --accent: #1a5fb4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #161616;
+      --text: #e8e6e1;
+      --muted: #9a978f;
+      --line: #2c2b28;
+      --accent: #78aeed;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 72px 20px 96px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header h1 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 0 0 4px;
+    letter-spacing: -0.01em;
+  }
+  .sub { color: var(--muted); margin: 0; }
+  .links {
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.88rem;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+  }
+
+  section { margin-top: 48px; }
+  h2 {
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    margin: 0 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  p { margin: 0 0 12px; }
+
+  .item { margin-bottom: 22px; }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: baseline;
+  }
+  .title { font-weight: 600; }
+  .date {
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.82rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .meta { color: var(--muted); font-style: italic; }
+  ul { margin: 6px 0 0; padding-left: 1.1em; }
+  li { margin-bottom: 4px; }
+
+  .pub .authors b { font-weight: 600; }
+  .venue { font-style: italic; }
+  .tag {
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 1px 6px;
+    margin-left: 4px;
+  }
+
+  .plain { list-style: none; padding: 0; margin: 0; }
+  .plain li { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 6px; }
+
+  dl.skills { display: grid; grid-template-columns: 120px 1fr; gap: 6px 16px; margin: 0; }
+  dl.skills dt { color: var(--muted); }
+  dl.skills dd { margin: 0; }
+
+  footer {
+    margin-top: 64px;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+
+  @media (max-width: 560px) {
+    main { padding-top: 48px; }
+    .row, .plain li { flex-direction: column; gap: 0; }
+    dl.skills { grid-template-columns: 1fr; gap: 0; }
+    dl.skills dd { margin-bottom: 8px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <h1>Yiming He</h1>
+    <p class="sub">M.Eng. student, Xi’an University of Technology</p>
+    <div class="links">
+      <a href="mailto:heyiming09@gmail.com">heyiming09@gmail.com</a>
+      <a href="https://github.com/hymckks">GitHub</a>
+      <a href="https://doi.org/10.1007/978-981-92-3015-0_13">ACISP 2026 paper</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>I work on data security and applied cryptography, in particular federated learning security (backdoor and poisoning attacks), homomorphic encryption, and zero-knowledge proofs (currently learning). My research is conducted at the Institute of Cyberspace Security, XUT, supervised by Prof. Xinhong Hei.</p>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+    <div class="item pub">
+      <div class="title">Backdoor Risks in Personalized Federated Learning Under Practical Constraints</div>
+      <div class="authors"><b>Yiming He</b>, Qing Ye, Xinhong Hei, Yichuan Wang</div>
+      <div><span class="venue">ACISP 2026</span>, LNCS 16793, pp. 285–302
+        <a class="tag" href="https://doi.org/10.1007/978-981-92-3015-0_13">DOI</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="item">
+      <div class="row"><span class="title">Xi’an University of Technology</span><span class="date">2024 – 2027 (expected)</span></div>
+      <div class="meta">M.Eng. in Mechanical Engineering · Xi’an, China</div>
+    </div>
+    <div class="item">
+      <div class="row"><span class="title">James Cook University</span><span class="date">2025 – 2026</span></div>
+      <div class="meta">Master of Engineering (Professional), XUT–JCU Dual Degree · Townsville, Australia</div>
+    </div>
+    <div class="item">
+      <div class="row"><span class="title">Huaqiao University</span><span class="date">2018 – 2022</span></div>
+      <div class="meta">B.Eng. in Information Security · Xiamen, China</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research</h2>
+    <div class="item">
+      <div class="row"><span class="title">Clean-Label Backdoor Attacks in Personalized FL</span><span class="date">Oct 2025 – Feb 2026</span></div>
+      <ul>
+        <li>Studied clean-label backdoor attacks in device–edge personalized FL under a realistic threat model: a single attacker holding only target-class data.</li>
+        <li>Proposed the Target-Class Trigger attack, using a generative model to synthesize triggers from target-class features without label manipulation.</li>
+        <li>Evaluated on CIFAR-10 with FedAvg, Ditto, FedRep and pFedMe (ConvNet, ResNet-18): 68%–80% ASR at a 5% poisoning rate with negligible clean-accuracy loss.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="row"><span class="title">Privacy-Preserving DBSCAN Clustering with FHE</span><span class="date">Feb 2022 – May 2022</span></div>
+      <div class="meta">Undergraduate thesis · <a href="https://github.com/hymckks/HE-DBSCAN">code</a></div>
+      <ul>
+        <li>Designed a privacy-preserving DBSCAN scheme based on fully homomorphic encryption for outsourced data analytics.</li>
+        <li>Used CKKS ciphertext packing (SIMD) to parallelize encrypted distance computation; implemented in C++ with HElib.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="item">
+      <div class="row"><span class="title">ML-Based Detection and Tracing of Covert Cyber Threats</span><span class="date">Sep 2024 – Mar 2025</span></div>
+      <div class="meta">NSFC Joint Fund · Participant</div>
+      <ul>
+        <li>Built a blockchain-based evidence-storage prototype for train control systems on a multi-node FISCO BCOS consortium chain (Solidity, IPFS, Vue + Python).</li>
+        <li>Drafted a Chinese invention patent application on blockchain-based trusted access and data attestation for train control systems.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Honors</h2>
+    <ul class="plain">
+      <li><span>National Scholarship (top ~3%)</span><span class="date">2026</span></li>
+      <li><span>National Academic Scholarship, XUT</span><span class="date">2025</span></li>
+      <li><span>Outstanding Individual Award for Virtue and Character, XUT</span><span class="date">2025</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <dl class="skills">
+      <dt>Programming</dt><dd>Python, C/C++, Solidity, SQL</dd>
+      <dt>Tools</dt><dd>PyTorch, HElib, Linux, Git, Docker</dd>
+      <dt>Cryptography</dt><dd>Homomorphic encryption (CKKS), zero-knowledge proofs (basic), blockchain (FISCO BCOS, IPFS)</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Service</h2>
+    <ul class="plain">
+      <li><span>Member, Academic Exchange Department, Graduate Student Union, XUT</span></li>
+      <li><span>Member, James Cook University Student Association</span></li>
+      <li><span>Volunteer, Xiamen Shuguang Rescue Team; Shaanxi Blue Sky Rescue Team</span></li>
+      <li><span>IEEE Graduate Student Member</span></li>
+    </ul>
+  </section>
+
+  <footer>Last updated October 2026</footer>
+
+</main>
+</body>
+</html>
